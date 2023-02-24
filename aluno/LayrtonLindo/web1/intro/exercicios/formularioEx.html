@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados pessoais e profissionais</title>
+</head>
+
+<body>
+    
+    <a href = "../MenuPrincipal.html"><h2>Menu Principal</h2></a>
+
+
+    <form action="../MenuPrincipal.html">
+
+        <fieldset>
+            <legend width="200px">Dados pessoais</legend>
+
+            <label for ="name">Nome:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for ="data">Data de nascimento</label>
+            <input type="date" id="data" name="data"><br><br>
+
+            <label for="endereco">Endereço</label>
+            <input type="adress"id="endereco"name="endereco">
+            <br>
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" name="bairro">
+            <br>
+            <label for="cep">Cep</label>
+            <input type="number" id="cep" name="cep">
+            
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade">
+
+            <form>
+                <label for="cars">Escolha seu estado.</label>
+                <select id = "cars" name="carros">
+                    <option value="0"> Acre (AC)</option>
+                    <option value="1">Alagoas (AL)</option>
+                    <option value="2">Amapá (AP)</option>
+                    <option value="3">Amazonas (AM)</option>
+                    <option value="4">Bahia (BA)</option>
+                    <option value="5">Ceará (CE)</option>
+                    <option value="6">Distrito Federal (DF)</option>
+                    <option value="7">Espírito Santo (ES)</option>
+                    <option value="8">Goiás (GO)</option>
+                    <option value="9">Maranhão (MA)</option>
+                    <option value="10">Mato Grosso (MT)</option>
+                    <option value="11">Mato Grosso do Sul (MS)</option>
+                    <option value="12">Minas Gerais (MG)</option>
+                    <option value="13">Pará (PA)</option>
+                    <option value="14">Paraíba (PB)</option>
+                    <option value="15">Paraná (PR)</option>
+                    <option value="16"> Pernambuco (PE)</option>
+                    <option value="17"> Piauí (PI)</option>
+                    <option value="18"> Rio de Janeiro (RJ)</option>
+                    <option value="19"> Rio Grande do Norte (RN)</option>
+                    <option value="20">Rio Grande do Sul (RS)</option>
+                    <option value="21">Rondônia (RO)</option>
+                    <option value="22"> Roraima (RR)</option>
+                    <option value="23">Santa Catarina (SC)</option>
+                    <option value="24">São Paulo (SP)</option>
+                    <option value="25">Sergipe (SE)</option>
+                    <option value="26">Tocantins (TO)</option>   
+                </select>
+            </form>
+        </fieldset>
+    </form>
+
+
+    <br><br><br><br>
+
+
+    <form action="../MenuPrincipal.html">
+        <fieldset>
+
+            <legend>Dados profissionais</legend>
+
+            <br><label>Natureza do cargo</label> <br>
+
+            <input type="radio" name="natureza_do_cargo" value="gerencia"/> Gerência
+            <input type="radio" name="natureza_do_cargo" value="financeiro"/> Financeiro
+            <input type="radio" name="natureza_do_cargo" value="recepcao"/> Recepção
+            <input type="radio" name="natureza_do_cargo" value="administrativo"/> Administrativo
+            <input type="radio" name="natureza_do_cargo" value="juridico"/> Jurídico
+
+            <br><br><br><label>Área de interesse</label><br>
+
+            <input type="checkbox" name="natureza_do_cargo2" value="comput"/>Computação
+            <input type="checkbox" name="natureza_do_cargo2" value="quimica"/>Química
+            <input type="checkbox" name="natureza_do_cargo2" value="meio_ambiente"/>Meio ambiente
+            <input type="checkbox" name="natureza_do_cargo2" value="engenharia"/>Engenharia
+            <input type="checkbox" name="natureza_do_cargo2" value="mat"/>Matemática
+
+        </fieldset>
+    </form>
+    
+    
+    
+</body>
+
+</html>
