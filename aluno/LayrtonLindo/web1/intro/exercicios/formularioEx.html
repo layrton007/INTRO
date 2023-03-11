@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados pessoais e profissionais</title>
+    <title>Formulário | Lista 1 - HTML </title>
 </head>
 
 <body>
@@ -12,9 +12,9 @@
     <a href = "../MenuPrincipal.html"><h2>Menu Principal</h2></a>
 
 
-    <form action="../MenuPrincipal.html">
+    <form>
 
-        <fieldset>
+        <fieldset style= "width:800px; height:200px;">
             <legend width="200px">Dados pessoais</legend>
 
             <label for ="name">Nome:</label>
@@ -35,8 +35,8 @@
             <label for="cidade">Cidade</label>
             <input type="text" id="cidade" name="cidade">
 
-            <form>
-                <label for="cars">Escolha seu estado.</label>
+            
+            <label for="cars">Escolha seu estado.</label>
                 <select id = "cars" name="carros">
                     <option value="0"> Acre (AC)</option>
                     <option value="1">Alagoas (AL)</option>
@@ -66,16 +66,12 @@
                     <option value="25">Sergipe (SE)</option>
                     <option value="26">Tocantins (TO)</option>   
                 </select>
-            </form>
+            
         </fieldset>
-    </form>
-
-
-    <br><br><br><br>
-
-
-    <form action="../MenuPrincipal.html">
-        <fieldset>
+    
+    <br><br>
+    
+        <fieldset  style= "width:800px; height:450px;">
 
             <legend>Dados profissionais</legend>
 
@@ -94,6 +90,13 @@
             <input type="checkbox" name="natureza_do_cargo2" value="meio_ambiente"/>Meio ambiente
             <input type="checkbox" name="natureza_do_cargo2" value="engenharia"/>Engenharia
             <input type="checkbox" name="natureza_do_cargo2" value="mat"/>Matemática
+
+            <br>
+            <label for="MiniCurriculo"> <br> Mini Currículo:</label> 
+            <br>
+            <textarea name = "message" style="width:400px; height: 200px;" ></textarea><br>
+            
+            <input type="submit" value="enviar"> <input type="reset" value="limpar">
 
         </fieldset>
     </form>
