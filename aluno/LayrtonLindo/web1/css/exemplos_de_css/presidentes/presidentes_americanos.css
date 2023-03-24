@@ -1,0 +1,29 @@
+body{
+   
+} 
+
+#democratas{
+    background-color: rgb(10, 4, 184);
+    border-color: black;
+    border-width: 2px;
+    border-style: solid ;
+    border: 2px  solid black;
+    border-radius: 30px;
+    width:50%;
+    margin-bottom: 100px;
+    margin: 10px 30px 23px 20px;
+    padding: 10px 10px 10px 10px;
+    float:left;
+}
+
+#republicanos{
+    background-color: red;
+ 
+    border-top: 20px solid purple;
+    border-right: 30px dotted green;
+    border-bottom: 70px double yellow;
+    width:50%;
+    float: right;
+
+    
+}
