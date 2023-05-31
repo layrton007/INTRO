@@ -1,0 +1,11 @@
+{
+
+        "largura": 200,
+        "altura": 100,
+        "cor": "red",
+        "borderWidth": "2",
+        "borderStyle": "solid",
+        "borderColor": "green",
+        "unid": "px"
+
+}
